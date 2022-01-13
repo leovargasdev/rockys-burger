@@ -15,10 +15,14 @@ html {
 }
 
 :root {
-  --background: #f5f6fa;
+  --background: #0C0603;
 
-  --primary: #373D4F;
-  --secondary: #9098AE;
+  --primary: #FFFFFF;
+  
+  --orange: #E8AC35;
+  --black: #0D0000;
+
+  --bebas: 'Bebas Neue', cursive;
 }
 
 body {
@@ -27,7 +31,7 @@ body {
 
 body, button, textarea, input {
   color: var(--primary);
-  font: 400 1rem "Roboto", sans-serif;
+  font: 400 1rem "Lato", sans-serif;
 }
 
 a {

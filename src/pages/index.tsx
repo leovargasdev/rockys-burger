@@ -1,24 +1,18 @@
 import Head from 'next/head'
-import { GetStaticProps } from 'next'
+
+import { Main } from 'components/Main'
+import { Header } from 'components/Header'
 
 import styles from 'styles/home.module.scss'
 
-type HomeProps = {
-  title: string
-}
-
-export default function Home({ title }: HomeProps) {
+export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>NextJS Boilerplate</title>
+        <title>Rocky&apos;s</title>
       </Head>
-      <h1>{title}</h1>
+      <Header />
+      <Main />
     </div>
   )
-}
-
-export const getStaticProps: GetStaticProps = async () => {
-  const title = 'NextJS Boilerplate'
-  return { props: { title } }
 }
