@@ -29,13 +29,14 @@
 ## 💻 Projeto
 
 Esse projeto foi desenvolvido durante uma live coding na [Twitch.tv](https://www.twitch.tv/oleovargas).
-O protótipo desse website foi desenvolvido pela design [**Orange Peel Studios UK**](https://dribbble.com/OrangePeelStudiosUK), [clique aqui](https://dribbble.com/shots/14938812-Rocky-s-Burger-design) para abrir o protótipo no dribbble.
+O protótipo desse website foi desenvolvido pelo studio [**Orange Peel**](https://dribbble.com/OrangePeelStudiosUK), [clique aqui](https://dribbble.com/shots/14938812-Rocky-s-Burger-design) para abrir o protótipo no dribbble.
 
 Dependências usadas no projeto:
 
 -  [Next.js](https://nextjs.org/)
 -  [Sass](https://sass-lang.com/)
 -  [TypeScript](https://www.typescriptlang.org/)
+-  [React Icons](https://react-icons.netlify.com/)
 
 Também foi adicionado as ferramentas [**ESLint**](https://eslint.org/) e [**Prettier**](https://prettier.io/) para aumentar a produtividade e auxiliar a manter um padrão de código.
 
