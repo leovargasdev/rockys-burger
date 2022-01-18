@@ -2,7 +2,7 @@ import styles from './styles.module.scss'
 
 export const Header = () => (
   <header className={styles.container}>
-    <span className={styles.logo} />
+    <img src="/logo.png" alt="logo rocky's burguer" />
 
     <nav>
       <ul className={styles.navigation}>
