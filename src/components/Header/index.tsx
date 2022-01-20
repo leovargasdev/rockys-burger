@@ -1,6 +1,11 @@
-import styles from './styles.module.scss'
+import { BsCart3 } from 'react-icons/bs'
 
-export const Header = () => (
+import styles from './styles.module.scss'
+interface HeaderProps {
+  cartQuant: number
+}
+
+export const Header = ({ cartQuant }: HeaderProps) => (
   <header className={styles.container}>
     <img src="/logo.png" alt="logo rocky's burguer" />
 
@@ -14,10 +19,9 @@ export const Header = () => (
       </ul>
     </nav>
 
-    <button type="button" className={styles.togle}>
-      <span />
-      <span />
-      <span />
+    <button type="button" className={styles.cart}>
+      <BsCart3 size="2.5rem" />
+      {!!cartQuant && <span>{cartQuant}</span>}
     </button>
   </header>
 )

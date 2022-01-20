@@ -83,20 +83,42 @@
   }
 
   button {
-    display: flex;
-    align-items: center;
-
+    position: relative;
     border: 0;
     padding: 0.5rem 0.675rem;
     background: var(--orange);
     border-radius: 2rem;
 
+    height: 50px;
+    max-width: 50px;
+    overflow: hidden;
+    transition: all 0.4s;
+    
+    &::before {
+      content: 'ADD TO BAG';
+
+      display: flex;
+      align-items: center;
+      width: 140px;
+      opacity: 0.4;
+      transition: all 0.4s;
+    }
+
+    &:hover {
+      max-width: 200px;
+
+      &::before {
+        opacity: 1;
+      }
+    }
+
     span {
+      position: absolute;
+      top: 8px;
+      right: 7px;
       display: flex;
       align-items: center;
       justify-content: center;
-
-      margin-left: 1rem;
 
       width: 2.125rem;
       height: 2.125rem;

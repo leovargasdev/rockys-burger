@@ -14,7 +14,11 @@ interface BurgerProps {
   image: string
 }
 
-export const Main = () => {
+interface MainProps {
+  addToCart: () => void
+}
+
+export const Main = ({ addToCart }: MainProps) => {
   const [activeBurger, setActiveBurger] = useState<number>(0)
   const [burgerClass, setBurgerClass] = useState<string>('')
 
@@ -64,8 +68,7 @@ export const Main = () => {
             <h3>FRIED CHICKEN BURGERS</h3>
             <h4>ROCKY&apos;S SPECIAL FRIED CHICKEN BURGERS</h4>
 
-            <button>
-              ADD TO BAG{' '}
+            <button type="button" onClick={addToCart}>
               <span>
                 <FaChevronRight />
               </span>
