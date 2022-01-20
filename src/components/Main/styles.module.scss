@@ -5,6 +5,7 @@
   align-items: stretch;
   width: 100%;
   position: relative;
+  overflow: hidden;
 
   h1 {
     position: absolute;
@@ -175,6 +176,29 @@
       &:hover {
         cursor: pointer;
       }
+    }
+  }
+}
+
+.fade-out {
+  transition: all 0.5s;
+
+  opacity: 0;
+  transform: translateX(-50vw);
+}
+
+.fade-in {
+  animation: animationFadeIn 0.5s;
+
+  @keyframes animationFadeIn {
+    from {
+      opacity: 0;
+      transform: translateX(50vw);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateX(0);
     }
   }
 }

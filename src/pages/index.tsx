@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Rocky&apos;s</title>
+        <title>Rocky&apos;s Burger</title>
       </Head>
       <Header />
       <Main />
