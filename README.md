@@ -1,5 +1,5 @@
 <h1 align="center">
-  Live 02 Twitch: Rocky's BurgerS
+  Live 02 Twitch: Rocky's Burger
 </h1>
 <!-- 
 <h2 align="center">
