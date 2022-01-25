@@ -1,3 +1,4 @@
+import { SocialMedia } from 'components/SocialMedia'
 import { useState } from 'react'
 import { BsCart3 } from 'react-icons/bs'
 
@@ -21,6 +22,8 @@ export const Header = ({ cartQuant }: HeaderProps) => {
           <li>DRINKS</li>
           <li>CONTACTS</li>
         </ul>
+
+        <SocialMedia />
       </nav>
 
       <button type="button" className={styles.cart}>

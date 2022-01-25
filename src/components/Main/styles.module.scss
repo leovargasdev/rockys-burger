@@ -29,6 +29,11 @@
   }
 
   @media(max-width: 650px) {
+    aside {
+      display: none;
+      visibility: hidden;
+    }
+
     h1 {
       top: -7rem;
       font-size: 38vw;
@@ -37,32 +42,7 @@
   }
 }
 
-.social-media {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 0.75rem;
-  // background: blue;
-  margin-right: 1.5rem;
 
-  svg {
-    color: var(--primary);
-    width: 1.5rem;
-    height: 1.5rem;
-    transition: 0.4s all;
-
-    &:hover {
-      transform: scale(1.2);
-      cursor: pointer;
-    }
-  }
-
-  @media(max-width: 650px) {
-    display: none;
-    visibility: hidden;
-  }
-}
 
 .content {
   flex: 1;

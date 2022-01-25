@@ -1,11 +1,7 @@
 /* eslint-disable multiline-ternary */
+import { SocialMedia } from 'components/SocialMedia'
 import { useState } from 'react'
-import {
-  FaChevronRight,
-  FaFacebookF,
-  FaInstagram,
-  FaTwitter
-} from 'react-icons/fa'
+import { FaChevronRight } from 'react-icons/fa'
 
 import styles from './styles.module.scss'
 
@@ -39,29 +35,9 @@ export const Main = ({ addToCart }: MainProps) => {
   return (
     <main className={styles.container}>
       <h1>BURGER</h1>
-      <aside className={styles['social-media']}>
-        <a
-          href="https://github.com/LeeonardoVargas"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FaFacebookF />
-        </a>
-        <a
-          href="https://twitter.com/leuvargas"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FaTwitter />
-        </a>
-        <a
-          href="https://instagram.com/leuvargas"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FaInstagram />
-        </a>
-      </aside>
+
+      <SocialMedia />
+
       <div className={styles.content}>
         <article>
           <section className={styles['info-and-bag']}>
