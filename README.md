@@ -28,7 +28,7 @@
 
 ## 💻 Projeto
 
-Esse projeto foi desenvolvido durante uma live coding na [Twitch.tv](https://www.twitch.tv/oleovargas).
+Esse projeto foi desenvolvido durante uma live coding na [Twitch.tv](https://www.twitch.tv/leovargasdev).
 O protótipo desse website foi desenvolvido pelo studio [**Orange Peel**](https://dribbble.com/OrangePeelStudiosUK), [clique aqui](https://dribbble.com/shots/14938812-Rocky-s-Burger-design) para abrir o protótipo no dribbble.
 
 Dependências usadas no projeto:
